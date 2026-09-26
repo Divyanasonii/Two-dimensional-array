@@ -14,11 +14,9 @@ int main () {
             scanf("%d", &arr[i][j]);
         }
     }
-    for (int i = 0; i < 3; i++) {
-
+    for (int i = 0; i < r; i++) {
         int sum = 0;
-
-        for (int j = 0; j < 3; j++) {
+        for (int j = 0; j < c; j++) {
             sum = sum + arr[i][j];
         }
 
